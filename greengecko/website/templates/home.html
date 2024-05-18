@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    {% include 'header.html' %}
+
+{#    <main>#}
+{#        <section class="py-2 text-center container">#}
+{#            <div class="row py-lg-5">#}
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <div>
+                        <img class="img-fluid" src="{% static "website/greengecko.jpeg" %}" alt="Responsive image">
+                    </div>
+{#                    <h1 class="fw-light">Green Gecko Coming Soon!</h1>#}
+{#                    <p class="lead text-muted">I'm Mickle and I love Carpentry</p>#}
+{#                    <p>#}
+{#                    <div class="row">#}
+{#                        <div class="col">#}
+{#                            <a href="#" class="btn btn-primary my-2">Get in touch</a>#}
+{#                        </div>#}
+{#                        <div class="col">#}
+{#                            <a href="#" class="btn btn-secondary my-2">Find out more</a>#}
+{#                        </div>#}
+{#                    </p>#}
+{#                    </div>#}
+{#                </div>#}
+            </div>
+{#        </section>#}
+
+{#    </main>#}
+
+    {% include 'cards.html' %}
+    {% include 'footer.html' %}
+
+
+{% endblock %}

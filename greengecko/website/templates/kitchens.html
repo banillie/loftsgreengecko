@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    {#    <div class=>#}
+    <div id="myCarousel" class="carousel slide py-3 px-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"/>
+                </svg>
+                <img class="card-img-top" src="{% static "website/kitchen_finished.jpg" %}">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Example One.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"/>
+                </svg>
+                <img class="card-img-top" src="{% static "website/kitchen_wip.jpg" %}">
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"/>
+                </svg>
+                <img class="card-img-top" src="{% static "website/kitchen_wip_2.jpg" %}">
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more example for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    {#    </div>#}
+
+{% endblock %}
+{#The challenge: ‘The last-minute cancellation’ Alex and Anik McCarthy were already feeling nervous#}
+{#about getting more work done on their coastal home near Brighton – they’d been burnt once before by#}
+{#bad builders. With a growing family, and their youngest squeezed into a boxroom, they were desperate#}
+{#for extra space.#}
+{##}
+{#So when the company booked in to carry out a loft extension pulled out a week before work was due to#}
+{#begin, it was a shocking blow and a huge headache.#}
+{#Then in stepped Green Gecko.#}
+{#Mick and Ese came with years of EXPERIENCE in the industry, slightly under the previous quote – and#}
+{#ready and willing to leap in at the last minute.#}
+{#The solution: ‘This was stress-free’#}
+{#“It was a completely different experience to what we’d had previously,” says Alex. “This was#}
+{#STRESS-FREE.#}
+{##}
+{#“Builders have a reputation for not always being reliable, but they were just SUPER-RELIABLE. So#}
+{#when they said they would be somewhere or were doing something – they did it.”#}
+{#There was also minimal upheaval for the family of five. For the first four weeks, Mick and Ese were#}
+{#able to climb the scaffolding and enter the house via a hole in the roof. And all deliveries would#}
+{#go in the same way meaning less stuff was being dragged through their#}
+{#“Apart from a bit of banging going on, we didn’t notice them much for the first part,” says Alex.#}
+{#They were also CLEAN AND TIDY, he adds. Every day they’d sweep up, pack up their tools and clear#}
+{#away the rubbish before they left.#}
+{#At each milestone in the 16-week build, Alex and Anik were invited upstairs to take a look to make#}
+{#sure they were happy.#}
+{#Part way through we decided we wanted a walk-in wardrobe, explains#}
+{#Alex. Thanks to Mick’s carpentry skills, he built a bespoke one - from scratch - to fit into a#}
+{#tricky alcove.#}
+{#“They were really PROFESSIONAL, really POLITE, just nice to have around the house. I’d say they were#}
+{#quiet - but they SANG A LOT,” Alex says, with a laugh.#}
+{#As a result everyone is happy.#}
+{#The full-width dormer extension, completed in November 2021, has allowed the McCarthys’ home to grow#}
+{#alongside their family.#}
+{#“It’s amazing. Everyone’s happy in their rooms and everyone’s got the right-sized rooms,” says Alex.#}
+{#“We’re happy in the loft - we’ve got an en suite, a nice airy bedroom and my wife’s got the walk-in#}
+{#wardrobe that she’d always wanted,” he says.#}
+{#“The kids love it too. They’re running up an extra flight of stairs, and have more rooms for hide#}
+{#and seek.”#}
+{#Plus, they’ve gained an office, in the former boxroom. So Alex and Anik are no longer working on#}
+{#laptops on the sofa or at the kitchen table. “The way we’re working these days – everyone needs a#}
+{#space to work from home now.”#}
