@@ -2,5 +2,3 @@ Django==4.2.3
 gunicorn
 psycopg2-binary
 django-dotenv
-boto3
-django-storages

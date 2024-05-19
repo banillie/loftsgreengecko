@@ -3,8 +3,12 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
-DEBUG = False 
-ALLOWED_HOSTS = ['greengeckocarpentry.co.uk', 'localhost', '142.93.136.223', 'test.greengeckocarpentry.co.uk']
+DEBUG = True
+ALLOWED_HOSTS = [
+    'localhost',
+    '142.93.136.223',
+    'test.greengeckocarpentry.co.uk'
+]
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -13,8 +17,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # third party
-    'storages',
     # internal
     "greengecko.website",
 ]
@@ -81,7 +83,7 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = "/static/"
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
