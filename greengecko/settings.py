@@ -2,12 +2,12 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
-DEBUG = True
+SECRET_KEY = "72367wgdd7198719873917w18shghasi" 
+DEBUG = False 
 ALLOWED_HOSTS = [
     'localhost',
     '142.93.136.223',
-    'test.greengeckocarpentry.co.uk'
+    'lofts.greengeckocarpentry.co.uk'
 ]
 
 INSTALLED_APPS = [
