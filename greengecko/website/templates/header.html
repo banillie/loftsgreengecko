@@ -1,41 +1,41 @@
 {% load static %}
-<div class="collapse" style="background-color: #196826;" id="navbarHeader">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-                {#                    <h4 class="text-white">Green Gecko Carpentry</h4>#}
-                <p class="text-white">
-                    Brighton based GreenGecko, led by Mick Tanner, boasts 15 years of carpentry and loft conversion
-                    expertise. Mick founded the company six years ago. He and his team are dedicated to eco-friendly
-                    practices, delivering high-quality, clean, and green home improvements with exceptional
-                    craftsmanship.
-                </p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-white">Contact</h4>
-                <ul class="list-unstyled">
-                    <li class="text-white">Email: greengeckocarpentry@outlook.com</li>
-                    <li class="text-white">Call: 07932 739150</li>
-                    <li class="text-white">Social Media:
-                        <a href="https://www.facebook.com/profile.php/?id=100076419304863"
-                           class="fa fa-facebook"></a>
-                    </li>
-                </ul>
+<header>
+    <div class="collapse" style="background-color: #196826;" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <p class="text-white">
+                        Brighton based GreenGecko, led by Mick Tanner, boasts 15 years of carpentry and loft conversion
+                        expertise. Mick founded the company six years ago. He and his team are dedicated to eco-friendly
+                        practices, delivering high-quality, clean, and green home improvements with exceptional
+                        craftsmanship.
+                    </p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li class="text-white">Email: greengeckocarpentry@outlook.com</li>
+                        <li class="text-white">Call: 07932 739150</li>
+                        <li class="text-white">Social Media:
+                            <a href="https://www.facebook.com/profile.php/?id=100076419304863"
+                               class="fa fa-facebook"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<div class="navbar navbar-dark shadow-sm" style="background-color: #196826;">
-    <div class="container">
-        <a href="{% url "home" %}" class="navbar-brand d-flex align-items-center">
-            <img src="{% static 'website/small_gecko.jpeg' %}" alt="small gecko" width="40" height="40"
-                 class="me-2">
-            <strong>Green Gecko Carpentry</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
-                aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="navbar navbar-dark shadow-sm" style="background-color: #196826;">
+        <div class="container">
+            <a href="{% url "home" %}" class="navbar-brand d-flex align-items-center">
+                <img src="{% static 'website/small_gecko.svg' %}" alt="small gecko" width="40" height="40"
+                     class="me-2">
+                <strong>Green Gecko Carpentry</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
     </div>
-</div>
 </header>
