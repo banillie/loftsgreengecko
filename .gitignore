@@ -13,7 +13,7 @@ media
 .idea/vcs.xml
 notes.txt
 .idea/
-static
+/static
 
 # If you are using PyCharm #
 # User-specific stuff
