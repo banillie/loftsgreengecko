@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = "72367wgdd7198719873917w18shghasi" 
-DEBUG = False 
+SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY") 
+DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '142.93.136.223',
@@ -50,13 +50,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "greengecko.wsgi.application"
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.sqlite3",
-#         "NAME": BASE_DIR / "db.sqlite3",
-#     }
-# }
 
 
 AUTH_PASSWORD_VALIDATORS = [
