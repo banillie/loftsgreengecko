@@ -7,7 +7,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     'localhost',
     '142.93.136.223',
-    'lofts.greengeckocarpentry.co.uk'
+    'lofts.greengeckocarpentry.co.uk',
+    'greengeckocarpentry.co.uk'
 ]
 
 INSTALLED_APPS = [
