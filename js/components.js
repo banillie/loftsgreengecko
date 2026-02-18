@@ -73,6 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
     if (header) {
         header.innerHTML = headerHTML;
         setupNavbar();
+        
+        // Add scroll effect for glassmorphism
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
     }
 
     // Inject Footer
