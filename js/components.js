@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="container">
         <nav class="navbar">
             <a href="index.html" class="navbar-brand">
-                <strong>Green Gecko Carpentry</strong>
+                <img src="img/small_gecko.png" alt="Gecko" style="height: 35px;">
+                <span>Green Gecko <strong>Carpentry</strong></span>
             </a>
             <button class="navbar-toggler" aria-label="Toggle navigation">
                 <span></span>
