@@ -404,6 +404,8 @@ header.scrolled {
     display: flex; flex-direction: column;
     transition: all 0.3s ease;
     border: 1px solid rgba(0,0,0,0.03);
+    text-decoration: none;
+    color: inherit;
 }
 
 .card:hover {
