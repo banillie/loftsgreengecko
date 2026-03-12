@@ -275,11 +275,12 @@ header.scrolled {
 
 /* Utilities */
 .py-4 { padding-top: 1.5rem !important; padding-bottom: 1.5rem !important; }
+.py-5 { padding-top: 3rem !important; padding-bottom: 3rem !important; }
 .mt-4 { margin-top: 1.5rem !important; }
 .mb-4 { margin-bottom: 1.5rem !important; }
 .mb-5 { margin-bottom: 3rem !important; }
 .hero-section {
-    padding: 10rem 0; /* Increased whitespace further for professional feel */
+    padding: 5rem 0; /* Reduced from 10rem for tighter layout */
     background-color: var(--bg-color);
     position: relative;
     overflow: hidden;
@@ -321,7 +322,7 @@ header.scrolled {
 
 @media (max-width: 768px) {
     .hero-section {
-        padding: 5rem 0;
+        padding: 3rem 0;
     }
     .about-content {
         padding-left: 0;
@@ -332,7 +333,7 @@ header.scrolled {
     }
     
     .testimonials-section {
-        padding: 5rem 0; 
+        padding: 3rem 0; 
     }
     
     .main-quote p {
@@ -374,7 +375,7 @@ header.scrolled {
 
 /* Cards */
 .album {
-    padding: 8rem 0;
+    padding: 4rem 0;
     background-color: var(--stone); /* Stone neutral instead of green */
 }
 
@@ -459,7 +460,7 @@ header.scrolled {
 
 /* Testimonials Section */
 .testimonials-section {
-    padding: 8rem 0;
+    padding: 4rem 0;
     background-color: var(--bg-color);
 }
 
@@ -634,7 +635,7 @@ header.scrolled {
 
 /* Footer */
 footer {
-    padding: 6rem 0 3rem;
+    padding: 3rem 0 2rem;
     background-color: var(--stone);
     color: var(--dark-text);
     border-top: 1px solid rgba(0,0,0,0.05);
