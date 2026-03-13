@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="container">
         <nav class="navbar">
             <a href="index.html" class="navbar-brand">
-                <img src="img/small_gecko.png" alt="Gecko" style="height: 35px;">
-                <span>Green Gecko <strong>Carpentry</strong></span>
+                <img src="img/logos/green_gecko_words.webp" alt="Green Gecko Carpentry" style="height: 50px;">
             </a>
             <button class="navbar-toggler" aria-label="Toggle navigation">
                 <span></span>
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul class="navbar-nav">
                     <li><a href="index.html#about" class="nav-link">About</a></li>
                     <li><a href="index.html#services" class="nav-link">Services</a></li>
-                    <li><a href="index.html#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="loft-conversions.html" class="nav-link">Lofts</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -43,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul class="footer-links">
                     <li><a href="index.html#about">About Us</a></li>
                     <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="loft-conversions.html">Lofts</a></li>
                 </ul>
             </div>
             <div class="footer-section">
