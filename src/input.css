@@ -64,10 +64,14 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease, padding 0.3s ease;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid rgba(25, 104, 38, 0.05);
+}
+
+header.header-hidden {
+    transform: translateY(-100%);
 }
 
 header.scrolled {

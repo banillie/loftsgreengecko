@@ -76,13 +76,37 @@ document.addEventListener('DOMContentLoaded', () => {
         header.innerHTML = headerHTML;
         setupNavbar();
         
-        // Add scroll effect for glassmorphism
+        let lastScrollY = window.scrollY;
+        const scrollThreshold = 10;
+        
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
+            const currentScrollY = window.scrollY;
+            const navbar = document.querySelector('.navbar');
+            const isNavbarOpen = navbar && navbar.classList.contains('navbar-open');
+
+            // Add scrolled class for styling
+            if (currentScrollY > 50) {
                 header.classList.add('scrolled');
             } else {
                 header.classList.remove('scrolled');
             }
+
+            // Smart Hide/Show logic
+            // Don't hide if navbar is open or near top
+            if (!isNavbarOpen && currentScrollY > 150) {
+                if (currentScrollY > lastScrollY + scrollThreshold) {
+                    // Scrolling down - hide
+                    header.classList.add('header-hidden');
+                } else if (currentScrollY < lastScrollY - scrollThreshold) {
+                    // Scrolling up - show
+                    header.classList.remove('header-hidden');
+                }
+            } else {
+                // Always show near the top or when menu is open
+                header.classList.remove('header-hidden');
+            }
+            
+            lastScrollY = currentScrollY;
         });
     }
 
