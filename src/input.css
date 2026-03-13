@@ -311,6 +311,11 @@ header.scrolled {
     width: fit-content;
 }
 
+.text-center.section-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-title::after {
     content: '';
     display: inline-block;
@@ -334,6 +339,11 @@ header.scrolled {
     position: absolute;
     bottom: -0.75rem;
     left: 0;
+}
+
+.text-center.section-title::before {
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
@@ -487,6 +497,21 @@ header.scrolled {
     margin-top: 0;
     margin-bottom: 0.75rem;
     font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-title::after {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/logos/green_gecko_gecko.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
 }
 
 /* Testimonials Section */
