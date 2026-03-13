@@ -6,12 +6,12 @@
 
 :root {
     --primary-color: #196826;
-    --accent-color: #d97706; /* Golden Oak / Burnt Orange */
-    --bg-color: #fdfbf7; /* Warm Vanilla/Paper background */
-    --navbar-bg: #eefee6; /* Light green from logo background */
+    --accent-color: #c27803; /* Refined Golden Oak - more wood-like, less orange */
+    --bg-color: #f9fbf7; /* Refined: Subtle "Leaf Paper" - matches navbar better than vanilla */
+    --navbar-bg: #eefee6; /* Fixed as requested */
     --text-muted: #64748b;
     --white: #ffffff;
-    --stone: #f5f5f5;
+    --stone: #f1f4ef; /* Refined: "Earthy Stone" - harmonizes with the green branding */
     --dark-text: #1e293b;
 }
 
