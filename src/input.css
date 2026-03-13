@@ -299,6 +299,7 @@ header.scrolled {
 .mt-4 { margin-top: 1.5rem !important; }
 .mb-4 { margin-bottom: 1.5rem !important; }
 .mb-5 { margin-bottom: 3rem !important; }
+.pb-3 { padding-bottom: 1rem !important; }
 .hero-section {
     padding: 5rem 0; /* Reduced from 10rem for tighter layout */
     background-color: var(--bg-color);
@@ -308,14 +309,8 @@ header.scrolled {
 
 .hero-img-container {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     padding-right: 2rem; /* More space between img and text */
-}
-
-@media (min-width: 768px) {
-    .hero-img-container {
-        margin-bottom: 0;
-    }
 }
 
 .section-title {
@@ -328,6 +323,8 @@ header.scrolled {
     align-items: center;
     gap: 1rem;
     width: fit-content;
+    border-bottom: 4px solid var(--accent-color);
+    padding-bottom: 0.2rem;
 }
 
 .text-center.section-title {
@@ -347,22 +344,8 @@ header.scrolled {
     opacity: 0.8;
 }
 
-/* Accent bar as a separate border to avoid conflict with pseudo-element icon */
-.section-title::before {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: var(--accent-color);
-    border-radius: 2px;
-    position: absolute;
-    bottom: -0.75rem;
-    left: 0;
-}
-
 .text-center.section-title::before {
-    left: 50%;
-    transform: translateX(-50%);
+    display: none;
 }
 
 @media (max-width: 768px) {
@@ -719,12 +702,13 @@ footer {
 .footer-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 1.5rem; /* Reduced from 3rem for mobile */
 }
 
 @media (min-width: 768px) {
     .footer-grid {
         grid-template-columns: 2fr 1fr 1fr;
+        gap: 3rem;
     }
 }
 
