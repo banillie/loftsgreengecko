@@ -28,7 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
     <div id="contact" class="container">
         <div class="footer-grid">
             <div class="footer-section">
-                <h5>Green Gecko Carpentry</h5>
+                <div class="footer-logo-wrap">
+                    <img src="img/logos/green_gecko_words.webp" alt="Green Gecko Carpentry Logo" style="height: 34px;">
+                </div>
                 <p>
                     Specializing in bespoke carpentry and high-quality loft conversions in Brighton and surrounding areas. 
                     We are dedicated to eco-friendly practices and exceptional craftsmanship.

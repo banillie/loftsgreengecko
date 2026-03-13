@@ -661,10 +661,16 @@ footer {
     font-size: 1.2rem;
 }
 
+.footer-logo-wrap {
+    margin-top: 1.45rem; /* Refined for perfect h5 alignment */
+    margin-bottom: 1.5rem;
+}
+
 .footer-section p {
     font-size: 1rem;
     line-height: 1.7;
     color: #555;
+    margin-top: 0;
 }
 
 .footer-links {
