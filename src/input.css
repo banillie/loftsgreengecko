@@ -147,7 +147,6 @@ header.scrolled {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .navbar.navbar-open .navbar-collapse {
