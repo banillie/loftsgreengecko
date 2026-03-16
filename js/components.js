@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerHTML = `
     <div class="container">
         <nav class="navbar">
-            <a href="index.html" class="navbar-brand">
+            <a href="/" class="navbar-brand">
                 <img src="img/logos/green_gecko_words.webp" alt="Green Gecko Carpentry" class="navbar-logo">
             </a>
             <button class="navbar-toggler" aria-label="Toggle navigation">
@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
             
             <div class="navbar-collapse">
                 <ul class="navbar-nav">
-                    <li><a href="index.html#about" class="nav-link">About</a></li>
-                    <li><a href="index.html#services" class="nav-link">Services</a></li>
-                    <li><a href="loft-conversions.html" class="nav-link">Lofts</a></li>
+                    <li><a href="/#about" class="nav-link">About</a></li>
+                    <li><a href="/#services" class="nav-link">Services</a></li>
+                    <li><a href="loft-conversions" class="nav-link">Lofts</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -42,9 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="footer-section">
                 <h5>Quick Links</h5>
                 <ul class="footer-links">
-                    <li><a href="index.html#about">About Us</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="loft-conversions.html">Lofts</a></li>
+                    <li><a href="/#about">About Us</a></li>
+                    <li><a href="/#services">Services</a></li>
+                    <li><a href="loft-conversions">Lofts</a></li>
                 </ul>
             </div>
             <div class="footer-section">
