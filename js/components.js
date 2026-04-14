@@ -32,21 +32,27 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="img/logos/green_gecko_words.webp" alt="Green Gecko Carpentry Logo" style="height: 34px;">
                 </div>
                 <p>
-                    Specializing in bespoke carpentry and high-quality loft conversions in Brighton and surrounding areas. 
-                    We are dedicated to eco-friendly practices and exceptional craftsmanship.
+                    Specializing in bespoke carpentry and high-quality loft conversions in Brighton and Hove. 
+                    Dedicated to eco-friendly practices and exceptional craftsmanship across East Sussex.
                 </p>
                 <div class="footer-social">
-                    <a href="https://www.facebook.com/profile.php/?id=100076419304863" class="fa fa-facebook"></a>
+                    <a href="https://www.facebook.com/profile.php/?id=100076419304863" class="fa fa-facebook" aria-label="Facebook"></a>
                 </div>
             </div>
+            
             <div class="footer-section">
-                <h5>Quick Links</h5>
+                <h5>Our Services</h5>
                 <ul class="footer-links">
-                    <li><a href="/#about">About Us</a></li>
-                    <li><a href="/#services">Services</a></li>
-                    <li><a href="loft-conversions">Lofts</a></li>
+                    <li><a href="loft-conversions">Loft Conversions</a></li>
+                    <li><a href="/#services">Garden Rooms</a></li>
+                    <li><a href="/#services">Bespoke Carpentry</a></li>
                 </ul>
+                <h5 style="margin-top: 20px;">Service Areas</h5>
+                <p>
+                    Brighton, Hove, Woodingdean, Hollingdean, Patcham, Saltdean, and surrounding areas.
+                </p>
             </div>
+
             <div class="footer-section">
                 <h5>Contact Us</h5>
                 <ul class="footer-contact">
@@ -56,11 +62,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     </li>
                     <li>
                         <i class="fa fa-phone"></i>
-                        <span>07932 739150</span>
+                        <a href="tel:07932739150" style="color: inherit; text-decoration: none;">07932 739150</a>
                     </li>
                     <li>
                         <i class="fa fa-map-marker"></i>
-                        <span>Brighton, United Kingdom</span>
+                        <span>Brighton, East Sussex</span>
                     </li>
                 </ul>
             </div>
