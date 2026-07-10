@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><a href="/#about" class="nav-link">About</a></li>
                     <li><a href="/#services" class="nav-link">Services</a></li>
                     <li><a href="loft-conversions" class="nav-link">Lofts</a></li>
+                    <li><a href="garden-rooms" class="nav-link">Garden Rooms</a></li>
                     <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
@@ -44,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h5>Our Services</h5>
                 <ul class="footer-links">
                     <li><a href="loft-conversions">Loft Conversions</a></li>
-                    <li><a href="/#services">Garden Rooms</a></li>
+                    <li><a href="garden-rooms">Garden Rooms</a></li>
                     <li><a href="/#services">Bespoke Carpentry</a></li>
                 </ul>
                 <h5 style="margin-top: 20px;">Service Areas</h5>
