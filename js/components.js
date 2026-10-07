@@ -73,7 +73,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Green Gecko Carpentry. All rights reserved. | Website by <a href="https://github.com/banillie">Banillie</a></p>
+            <p>&copy; 2026 Green Gecko Carpentry. All rights reserved.</p>
+            <p class="site-credit-line">Website by <a class="site-credit" href="https://grantweb.co.uk"><img src="img/grantweb_logo.svg" alt="Grant Web" width="32" height="18"></a></p>
         </div>
     </div>`;
 

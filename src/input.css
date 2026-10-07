@@ -823,10 +823,30 @@ footer {
     color: var(--text-muted);
 }
 
+.footer-bottom p {
+    margin: 0;
+}
+
 .footer-bottom a {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
+}
+
+.footer-bottom .site-credit-line {
+    margin-top: 1.15rem;
+}
+
+.site-credit {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.site-credit img {
+    display: block;
+    height: 1.15rem;
+    width: auto;
 }
 
 /* Social Icons */
